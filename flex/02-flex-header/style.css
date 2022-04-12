@@ -23,3 +23,39 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+.header{
+  display:  flex;
+  justify-content:space-between;
+  padding: 20px;
+
+}
+
+.left-links,
+.right-links{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  /* border: red solid; */
+}
+
+ul{
+  /* height: 500px; */
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li{
+  display: flex;
+  margin: 5px;
+  padding: 0px;
+  flex-direction: row;
+  justify-content: space-between; 
+
+  align-items: center;
+  /* border: red solid; */
+}
